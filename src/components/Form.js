@@ -52,7 +52,7 @@ function Form() {
 
             <div className='flex gap-4 md:flex-row flex-col mt-6  '>
             <button className='text-gray-300 border p-1 w-full rounded flex items-center justify-center gap-2 hover:bg-purple-200 hover:text-gray-400' onClick={handleSignInWithGoogle}> <FcGoogle/> <span> Google</span></button>
-            <button className='text-gray-300 border p-1 w-full rounded flex items-center justify-center gap-2 hover:bg-purple-200 hover:text-gray-400'> <FaApple/> <span>Apple </span> </button>
+            {/* <button className='text-gray-300 border p-1 w-full rounded flex items-center justify-center gap-2 hover:bg-purple-200 hover:text-gray-400'> <FaApple/> <span>Apple </span> </button> */}
             </div>
         </form>
     </div>
